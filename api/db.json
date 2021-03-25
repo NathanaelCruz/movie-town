@@ -2,6 +2,7 @@
     "movies": [{
             "id": "1",
             "name": "Halloween",
+            "slug": "halloween",
             "folder": "halloween.jpeg",
             "rating": 6.5,
             "synopsis": "Quatro década depois de escapar do ataque de Michael Myers em uma noite de Halloween, Laurie Strode precisa confrontar o assassino mascarado mais uma vez após ele escapar de uma instituição. Mas, agora Laurie está preparada.",
@@ -32,6 +33,7 @@
         {
             "id": "2",
             "name": "Doutor Sono",
+            "slug": "doutor-sono",
             "folder": "doutor-sono.jpeg",
             "rating": 7.3,
             "synopsis": "Na infância, Danny Torrance sobreviveu a uma tentativa de homicídio por parte do pai, um escritor perturbado pelos espíritos malignos do Hotel Overlook. Já adulto, traumatizado e alcoólatra. Danny se estabelece em uma pequena cidade, onde consegue um emprego no hospital local. Sua paz, porém, está com os dias contados a partir de quando cria um vínculo telepático com Abra, uma menina com poderes tão fortes quanto aqueles que ele bloqueia dentro de si.",
@@ -62,6 +64,7 @@
         {
             "id": "3",
             "name": "Soul",
+            "slug": "soul",
             "folder": "soul.jpeg",
             "rating": 8.1,
             "synopsis": "Joe é um professor de música do ensino médio apaixonado por jazz, cuja vida não foi como ele esperava. Quando ele viaja a uma outra realidade para ajudar outra pessoa a encontrar sua paixão, ele descobre o verdadeiro sentido da vida.",
@@ -88,6 +91,7 @@
         {
             "id": "4",
             "name": "Watchmen: O Filme",
+            "slug": "watchmen-o-filme",
             "folder": "watchman.jpeg",
             "rating": 0.0,
             "synopsis": "Quando um de seus antigos colegas é assassinado, o vigilante mascarado Rorschach descobre um plano para matar e desacreditar todos os super-heróis do passado e do presente. À medida que ele se reconecta com sua antiga legião de combate ao crime, um grupo desorganizado de super-heróis aposentados, dentre os quais somente um possui verdadeiros poderes, Rorschach vislumbra uma ampla e perturbadora conspiração que está ligada ao passado deles e a catastróficas consequências para o futuro.",
@@ -116,6 +120,7 @@
         }, {
             "id": "5",
             "name": "O Filho do Máskara",
+            "slug": "o-filho-do-maskara",
             "folder": "o-filho-do-maskara.jpeg",
             "rating": 2.2,
             "synopsis": "Tim Avery, um caricaturista aspirante, se vê em um predicamento quando seu cachorro Otis tromba com a máscara de Loki, que estava dada como perdida. Depois de conceber um filho \"nascido de uma máscara\", ele se dá conta da loucura de criar uma criança.",
@@ -143,6 +148,7 @@
         {
             "id": "6",
             "name": "Velocidade Máxima 2",
+            "slug": "velocidade-maxima-2",
             "folder": "velocidade-maxima-2.jpeg",
             "rating": 3.9,
             "synopsis": "Annie Porter fica entusiasmada quando o namorado compra um pacote para um cruzeiro de férias nas Bahamas. A viagem é uma oferta de paz para Annie, que acabou de saber a verdade sobre a vida profissional de Alex. O feliz casal mal sabe que há um plano para tomar o navio.",
@@ -170,6 +176,7 @@
         {
             "id": "7",
             "name": "Navio Fantasma",
+            "slug": "navio-fantasma",
             "folder": "navio-fantasma.jpeg",
             "rating": 5.5,
             "synopsis": "Uma equipe de resgate descobre um navio de passageiros perdido desde a década de 60, chamado de Antonia Graza, flutuando inabitado em uma região remota do Mar de Bering. Ao tentar rebocá-lo, uma série de acontecimentos bizarros começam a acontecer, e a tripulação descobre que a embarcação em decomposição não está vazia. Ao contrário, é o lugar de algo muito mais mortal e terrível do que qualquer coisa que eles pudessem ter imaginado.",
@@ -193,6 +200,7 @@
         {
             "id": "8",
             "name": "Nausicaä do Vale do Vento",
+            "slug": "nausicaa-do-vale-do-vento",
             "folder": "nausicaa.jpeg",
             "rating": 8.1,
             "synopsis": "No futuro, depois da Terra ser varrida pela Guerra do Sete Dias de Fogo, a princesa Nausicaä tenta de todas as formas impedir que duas nações entrem em guerra e se destruam em um planeta agonizante.",
@@ -220,6 +228,7 @@
         {
             "id": "9",
             "name": "Rocky: Um Lutador",
+            "slug": "rocky-um-lutador",
             "folder": "rocky.jpeg",
             "rating": 8.1,
             "synopsis": "Rocky Balboa, um pequeno boxeador da classe trabalhadora da Filadélfia, é arbitrariamente escolhido para lutar contra o campeão dos pesos pesados, Apollo Creed, quando o adversário do invicto lutador agendado para a luta é ferido. Durante o treinamento com o mal-humorado Mickey Goldmill, Rocky timidamente começa um relacionamento com Adrian, a invisível irmã de Paulie, seu amigo empacotador de carne.",
@@ -245,6 +254,7 @@
         {
             "id": "10",
             "name": "Tenet",
+            "slug": "tenet",
             "folder": "tenet.jpeg",
             "rating": 8.1,
             "synopsis": "Um agente secreto embarca em uma missão perigosa para evitar o início da Terceira Guerra Mundial.",
