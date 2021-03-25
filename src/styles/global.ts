@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body{
-    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: ${(props) => props.theme.font.primary};
     color: ${(props) => props.theme.colors.text}
   }
 
@@ -24,7 +24,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1{
-    color: ${(props) => props.theme.colors.heading}
+    font: 400 ${(props) => props.theme.measures.large} ${(props) =>
+  props.theme.font.secundary};
   }
 
   p{

@@ -1,0 +1,273 @@
+{
+    "movies": [{
+            "id": "1",
+            "name": "Halloween",
+            "folder": "halloween.jpeg",
+            "rating": 6.5,
+            "synopsis": "Quatro década depois de escapar do ataque de Michael Myers em uma noite de Halloween, Laurie Strode precisa confrontar o assassino mascarado mais uma vez após ele escapar de uma instituição. Mas, agora Laurie está preparada.",
+            "year": 2018,
+            "duration": 104,
+            "director": "David Gordon Green",
+            "genres": [{
+                "genre": "Crime"
+            }, {
+                "genre": "Terror"
+            }, {
+                "genre": "Thriller"
+            }],
+            "actors": [{
+                    "name": "Jamie Lee Curtis",
+                    "link": "https://www.imdb.com/name/nm0000130/?ref_=tt_ov_st_sm"
+                },
+                {
+                    "name": "Judy Greer",
+                    "link": "https://www.imdb.com/name/nm0339460/?ref_=tt_ov_st_sm"
+                },
+                {
+                    "name": "Andi Matichak",
+                    "link": "https://www.imdb.com/name/nm5506858/?ref_=tt_ov_st_sm"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Doutor Sono",
+            "folder": "doutor-sono.jpeg",
+            "rating": 7.3,
+            "synopsis": "Na infância, Danny Torrance sobreviveu a uma tentativa de homicídio por parte do pai, um escritor perturbado pelos espíritos malignos do Hotel Overlook. Já adulto, traumatizado e alcoólatra. Danny se estabelece em uma pequena cidade, onde consegue um emprego no hospital local. Sua paz, porém, está com os dias contados a partir de quando cria um vínculo telepático com Abra, uma menina com poderes tão fortes quanto aqueles que ele bloqueia dentro de si.",
+            "year": 2019,
+            "duration": 152,
+            "director": "Mike Flanagan",
+            "genres": [{
+                "genre": "Drama"
+            }, {
+                "genre": "Fantasia"
+            }, {
+                "genre": "Terror"
+            }],
+            "actors": [{
+                    "name": "Ewan McGregor",
+                    "link": "https://www.imdb.com/name/nm0000191/?ref_=tt_ov_st_sm"
+                },
+                {
+                    "name": "Rebecca Ferguson",
+                    "link": "https://www.imdb.com/name/nm0272581/?ref_=tt_ov_st_sm"
+                },
+                {
+                    "name": "Kyliegh Curran",
+                    "link": "https://www.imdb.com/name/nm7738797/?ref_=tt_ov_st_sm"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Soul",
+            "folder": "soul.jpeg",
+            "rating": 8.1,
+            "synopsis": "Joe é um professor de música do ensino médio apaixonado por jazz, cuja vida não foi como ele esperava. Quando ele viaja a uma outra realidade para ajudar outra pessoa a encontrar sua paixão, ele descobre o verdadeiro sentido da vida.",
+            "year": 2020,
+            "duration": 100,
+            "director": "Pete Docter",
+            "genres": [{
+                "genre": "Animação"
+            }, {
+                "genre": "Aventura"
+            }, {
+                "genre": "Comédia"
+            }],
+            "actors": [{
+                    "name": "Jamie Foxx",
+                    "link": "https://www.imdb.com/name/nm0004937/?ref_=tt_ov_st_sm"
+                },
+                {
+                    "name": "Tina Fey",
+                    "link": "https://www.imdb.com/name/nm0275486/?ref_=tt_ov_st_sm"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Watchmen: O Filme",
+            "folder": "watchman.jpeg",
+            "rating": 0.0,
+            "synopsis": "Quando um de seus antigos colegas é assassinado, o vigilante mascarado Rorschach descobre um plano para matar e desacreditar todos os super-heróis do passado e do presente. À medida que ele se reconecta com sua antiga legião de combate ao crime, um grupo desorganizado de super-heróis aposentados, dentre os quais somente um possui verdadeiros poderes, Rorschach vislumbra uma ampla e perturbadora conspiração que está ligada ao passado deles e a catastróficas consequências para o futuro.",
+            "year": 2009,
+            "duration": 162,
+            "director": "Zack Snyder",
+            "genres": [{
+                    "genre": "Ação"
+                },
+                {
+                    "genre": "Drama"
+                }, {
+                    "genre": "Mistério"
+                }
+            ],
+            "actors": [{
+                "name": "Jackie Earle Haley",
+                "link": "https://www.imdb.com/name/nm0355097/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Patrick Wilson",
+                "link": "https://www.imdb.com/name/nm0933940/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Carla Gugino",
+                "link": "https://www.imdb.com/name/nm0001303/?ref_=tt_ov_st_sm"
+            }]
+        }, {
+            "id": "5",
+            "name": "O Filho do Máskara",
+            "folder": "o-filho-do-maskara.jpeg",
+            "rating": 2.2,
+            "synopsis": "Tim Avery, um caricaturista aspirante, se vê em um predicamento quando seu cachorro Otis tromba com a máscara de Loki, que estava dada como perdida. Depois de conceber um filho \"nascido de uma máscara\", ele se dá conta da loucura de criar uma criança.",
+            "year": 2005,
+            "duration": 94,
+            "director": "Lawrence Guterman",
+            "genres": [{
+                "genre": "Comédia"
+            }, {
+                "genre": "Família"
+            }, {
+                "genre": "Fantásia"
+            }],
+            "actors": [{
+                "name": "Jamie Kennedy",
+                "link": "https://www.imdb.com/name/nm0005085/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Traylor Howard",
+                "link": "https://www.imdb.com/name/nm0005025/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Alan Cumming",
+                "link": "https://www.imdb.com/name/nm0001086/?ref_=tt_ov_st_sm"
+            }]
+        },
+        {
+            "id": "6",
+            "name": "Velocidade Máxima 2",
+            "folder": "velocidade-maxima-2.jpeg",
+            "rating": 3.9,
+            "synopsis": "Annie Porter fica entusiasmada quando o namorado compra um pacote para um cruzeiro de férias nas Bahamas. A viagem é uma oferta de paz para Annie, que acabou de saber a verdade sobre a vida profissional de Alex. O feliz casal mal sabe que há um plano para tomar o navio.",
+            "year": 1997,
+            "duration": 121,
+            "director": "Jan de Bont",
+            "genres": [{
+                "genre": "Ação"
+            }, {
+                "genre": "Aventura"
+            }, {
+                "genre": "Crime"
+            }],
+            "actors": [{
+                "name": "Sandra Bullock,",
+                "link": "https://www.imdb.com/name/nm0000113/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Jason Patric",
+                "link": "https://www.imdb.com/name/nm0000574/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Willem Dafoe",
+                "link": "https://www.imdb.com/name/nm0000353/?ref_=tt_ov_st_sm"
+            }]
+        },
+        {
+            "id": "7",
+            "name": "Navio Fantasma",
+            "folder": "navio-fantasma.jpeg",
+            "rating": 5.5,
+            "synopsis": "Uma equipe de resgate descobre um navio de passageiros perdido desde a década de 60, chamado de Antonia Graza, flutuando inabitado em uma região remota do Mar de Bering. Ao tentar rebocá-lo, uma série de acontecimentos bizarros começam a acontecer, e a tripulação descobre que a embarcação em decomposição não está vazia. Ao contrário, é o lugar de algo muito mais mortal e terrível do que qualquer coisa que eles pudessem ter imaginado.",
+            "year": 2002,
+            "duration": 91,
+            "director": "Steve Beck",
+            "genres": [{
+                "genre": "Terror"
+            }],
+            "actors": [{
+                "name": "Julianna Margulies",
+                "link": "https://www.imdb.com/name/nm0000523/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Gabriel Byrne",
+                "link": "https://www.imdb.com/name/nm0000321/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Ron Eldard",
+                "link": "https://www.imdb.com/name/nm0253035/?ref_=tt_ov_st_sm"
+            }]
+        },
+        {
+            "id": "8",
+            "name": "Nausicaä do Vale do Vento",
+            "folder": "nausicaa.jpeg",
+            "rating": 8.1,
+            "synopsis": "No futuro, depois da Terra ser varrida pela Guerra do Sete Dias de Fogo, a princesa Nausicaä tenta de todas as formas impedir que duas nações entrem em guerra e se destruam em um planeta agonizante.",
+            "year": 1984,
+            "duration": 117,
+            "director": "Hayao Miyazaki",
+            "genres": [{
+                "genre": "Animação"
+            }, {
+                "genre": "Aventura"
+            }, {
+                "genre": "Fantásia"
+            }],
+            "actors": [{
+                "name": "Sumi Shimamoto",
+                "link": "https://www.imdb.com/name/nm0793585/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Mahito Tsujimura",
+                "link": "https://www.imdb.com/name/nm0875332/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Hisako Kyôda",
+                "link": "https://www.imdb.com/name/nm0477449/?ref_=tt_ov_st_sm"
+            }]
+        },
+        {
+            "id": "9",
+            "name": "Rocky: Um Lutador",
+            "folder": "rocky.jpeg",
+            "rating": 8.1,
+            "synopsis": "Rocky Balboa, um pequeno boxeador da classe trabalhadora da Filadélfia, é arbitrariamente escolhido para lutar contra o campeão dos pesos pesados, Apollo Creed, quando o adversário do invicto lutador agendado para a luta é ferido. Durante o treinamento com o mal-humorado Mickey Goldmill, Rocky timidamente começa um relacionamento com Adrian, a invisível irmã de Paulie, seu amigo empacotador de carne.",
+            "year": 1976,
+            "duration": 120,
+            "director": "John G. Avildsen",
+            "genres": [{
+                "genre": "Drama"
+            }, {
+                "genre": "Esporte"
+            }],
+            "actors": [{
+                "name": "Sylvester Stallone",
+                "link": "https://www.imdb.com/name/nm0000230/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Talia Shire",
+                "link": "https://www.imdb.com/name/nm0001735/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Burt Young",
+                "link": "https://www.imdb.com/name/nm0949350/?ref_=tt_ov_st_sm"
+            }]
+        },
+        {
+            "id": "10",
+            "name": "Tenet",
+            "folder": "tenet.jpeg",
+            "rating": 8.1,
+            "synopsis": "Um agente secreto embarca em uma missão perigosa para evitar o início da Terceira Guerra Mundial.",
+            "year": 2020,
+            "duration": 75,
+            "director": "Christopher Nolan",
+            "genres": [{
+                "genre": "Ação"
+            }, {
+                "genre": "Sci-fi"
+            }, {
+                "genre": "Thriller"
+            }],
+            "actors": [{
+                "name": "John David Washington",
+                "link": "https://www.imdb.com/name/nm0913475/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Robert Pattinson",
+                "link": "https://www.imdb.com/name/nm1500155/?ref_=tt_ov_st_sm"
+            }, {
+                "name": "Elizabeth Debicki",
+                "link": "https://www.imdb.com/name/nm4456120/?ref_=tt_ov_st_sm"
+            }]
+        }
+    ]
+}

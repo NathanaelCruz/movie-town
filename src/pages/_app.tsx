@@ -15,14 +15,14 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>NextJS | Boilerplate</title>
-        <link rel="shortcut icon" href="/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <title>Movie Town | Bem vindo a cidade da cinematografia</title>
+        <link rel="shortcut icon" href="/img/icon-100.png" />
+        <link rel="apple-touch-icon" href="/img/icon-100.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#06092b" />
+        <meta name="theme-color" content="#E74C3C" />
         <meta
           name="description"
-          content="A boilerplate project starter to work with typescript, React, NextJS and Components"
+          content="Projeto Movie Town para listagem e busca de filmes no acervo"
         />
       </Head>
       <DefaultSeo {...SEO} />

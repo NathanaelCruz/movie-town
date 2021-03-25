@@ -1,20 +1,20 @@
 {
-    "name": "Boilerplate NextJS",
-    "short_name": "Boilerplate NextJS",
+    "name": "Movie Town",
+    "short_name": "Movie Town",
     "icons": [{
-            "src": "/img/icon-192.png",
+            "src": "/img/icon-50.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "50x50"
         },
         {
-            "src": "/img/icon-512.png",
+            "src": "/img/icon-100.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "100x100"
         }
     ],
     "background_color": "#FFFAFA",
-    "description": "Boilerplate utilizando Typescript, React, NextJS, Jest e Styled Components!",
+    "description": "Projeto com listagem de filmes",
     "display": "fullscreen",
     "start_url": "/",
-    "theme_color": "#e6553a"
+    "theme_color": "#E74C3C"
 }

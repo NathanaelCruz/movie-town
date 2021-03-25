@@ -1,23 +1,22 @@
 const theme = {
   colors: {
     background: '#FFFAFA',
-    black: '#1C1C1C',
-    white: '#FFFAFA',
-    primary: '#E6553A',
-    secondary: '#FEA23E',
-    text: '#3A3A3A',
-    heading: '#F52905'
+    black: '#2f3542',
+    white: '#ffffff',
+    primary: '#E74C3C',
+    secondary: '#ED4C67',
+    text: '#2f3542'
   },
   measures: {
     bigSmall: '0.9rem',
     small: '1.3rem',
-    medium: '2rem',
-    large: '3rem',
-    bigLarge: '4.5rem'
+    medium: '2.3rem',
+    large: '4rem',
+    bigLarge: '6rem'
   },
   font: {
-    primary: `--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif`,
-    secundary: `--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif`
+    primary: `'Lexend', sans-serif`,
+    secundary: `'Train One', cursive`
   }
 }
 
