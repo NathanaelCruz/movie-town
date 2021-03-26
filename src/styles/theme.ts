@@ -4,7 +4,8 @@ const theme = {
     black: '#2f3542',
     white: '#ffffff',
     primary: '#E74C3C',
-    secondary: '#ED4C67',
+    secondary: '#c0392b',
+    boxShadow: 'rgba(148, 152, 155, 0.4)',
     text: '#2f3542'
   },
   measures: {

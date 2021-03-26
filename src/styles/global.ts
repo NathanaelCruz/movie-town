@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
 
   body{
     font-family: ${(props) => props.theme.font.primary};
-    color: ${(props) => props.theme.colors.text}
+    color: ${(props) => props.theme.colors.text};
   }
 
   html,
@@ -29,7 +29,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p{
-    font-size: ${(props) => props.theme.measures.medium}
+    font-size: ${(props) => props.theme.measures.medium};
+  }
+
+  a{
+    text-decoration: none;
+    color: ${(props) => props.theme.colors.text};
   }
 
   button,

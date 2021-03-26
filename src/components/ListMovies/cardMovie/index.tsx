@@ -1,9 +1,15 @@
-import React from 'react'
+import * as S from './styles'
 
-// import { Container } from './styles';
-
-const cardMovie: React.FC = () => {
-  return <div />
+const CardMovie: React.FC = () => {
+  return (
+    <S.Movie>
+      <S.MovieImgContent>
+        <S.MovieImg src="/img/movies/halloween.jpeg" alt="nome do filme" />
+      </S.MovieImgContent>
+      <S.MovieTitle>Halloween</S.MovieTitle>
+      <S.MovieYear dateTime="2019">2019</S.MovieYear>
+    </S.Movie>
+  )
 }
 
-export default cardMovie
+export default CardMovie
