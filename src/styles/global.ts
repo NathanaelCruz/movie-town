@@ -35,6 +35,7 @@ const GlobalStyles = createGlobalStyle`
   button,
   textarea,
   input{
+    font-family: ${(props) => props.theme.font.primary};
     font-size: ${(props) => props.theme.font.primary};
   }
 `

@@ -1,7 +1,7 @@
-import Main from 'components/Main/Main'
+import TemplateHome from 'templates/pages/home/templateHome'
 
 export default function Home() {
-  return <Main />
+  return <TemplateHome></TemplateHome>
 }
 
 // export const getStaticProps = async () => {
