@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Deverá renderizar o Header 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 9rem;
+  background-color: #2f3542;
+  padding: 1.3rem 0.9rem;
+}
+
+.c1 {
+  display: grid;
+  grid-template: 'logo busca busca busca busca';
+  grid-gap: 1rem;
+  width: 100%;
+  height: 100%;
+  max-width: 100rem;
+}
+
+.c2 {
+  grid-area: logo;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  width: 6.5rem;
+}
+
+.c3 {
+  max-width: 100%;
+}
+
+.c4 {
+  grid-area: busca;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.c5 {
+  width: 95%;
+  height: 3rem;
+  padding: 1rem 4rem 1rem 1rem;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  outline: none;
+}
+
+.c5:active,
+.c5:focus {
+  box-shadow: 0 0 5px 2px #E74C3C;
+}
+
+.c6 {
+  background-color: #2f3542;
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  z-index: 10;
+  right: 0;
+  top: calc(50% - 2rem);
+  border-radius: 50%;
+  border: none;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.c6:hover {
+  cursor: pointer;
+  background-color: #E74C3C;
+}
+
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (min-width:767px) {
+  .c1 {
+    grid-template: 'logo busca busca . .';
+  }
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+    role="menu"
+  >
+    <a
+      class="c2"
+    >
+      <img
+        alt="Ticket de ingresso para o cinema com uma estrela"
+        class="c3"
+        src="/img/icon-100.png"
+      />
+    </a>
+    <div
+      class="c4"
+    >
+      <input
+        class="c5"
+        placeholder="Qual seu filme favorito?"
+        type="search"
+      />
+      <button
+        class="c6"
+      >
+        <svg
+          aria-hidden="true"
+          class="c7"
+          color="#ffffff"
+          fill="currentColor"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14zm-2.17-1.5l2.14-1.53 2.14 1.53-.83-2.46 2.15-1.5h-2.62L9.47 6l-.84 2.54H6l2.14 1.49z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+`;

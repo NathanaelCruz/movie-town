@@ -1,25 +1,33 @@
 import * as S from './styles'
 import Link from 'next/link'
 import CardMovie from './cardMovie'
+import { useContext } from 'react'
+import { ListMoviesContext } from '../../contexts/ListMoviesContext'
+import DontFindMovie from './dontFindMovie'
 
 const ListMovies: React.FC = () => {
+  const { listMovies, movieIsFinded } = useContext(ListMoviesContext)
   return (
     <S.Container>
       <S.Content>
         <S.HeadingPage>Filmes</S.HeadingPage>
-        <S.ListMovies>
-          {[1, 2, 3, 4, 5].map((number) => {
-            return (
-              <li key={`list-${number}`}>
-                <Link href="/">
-                  <a>
-                    <CardMovie />
-                  </a>
-                </Link>
-              </li>
-            )
-          })}
-        </S.ListMovies>
+        {movieIsFinded === false ? (
+          <S.ListMovies>
+            {listMovies.map((movie) => {
+              return (
+                <li key={`list-${movie.id}`}>
+                  <Link href={movie.slug}>
+                    <a>
+                      <CardMovie {...movie} />
+                    </a>
+                  </Link>
+                </li>
+              )
+            })}
+          </S.ListMovies>
+        ) : (
+          <DontFindMovie />
+        )}
       </S.Content>
     </S.Container>
   )

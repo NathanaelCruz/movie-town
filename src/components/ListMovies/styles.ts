@@ -26,10 +26,14 @@ export const HeadingPage = styled.h1`
 
 export const ListMovies = styled.ul`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 1rem;
   padding: 1rem;
   list-style: none;
   width: 100%;
   margin-top: ${(props) => props.theme.measures.small};
+
+  @media (min-width: 767px) {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
+  }
 `

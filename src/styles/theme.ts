@@ -6,7 +6,8 @@ const theme = {
     primary: '#E74C3C',
     secondary: '#c0392b',
     boxShadow: 'rgba(148, 152, 155, 0.4)',
-    text: '#2f3542'
+    text: '#2f3542',
+    backgroundModal: 'rgba(37, 35, 35, 0.342)'
   },
   measures: {
     bigSmall: '0.9rem',

@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import Image from 'next/image'
 
 export const Movie = styled.article`
-  height: 24rem;
+  height: 35rem;
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
@@ -27,17 +28,22 @@ export const Movie = styled.article`
 `
 
 export const MovieImgContent = styled.figure`
+  position: relative;
+  background-color: ${(props) => props.theme.colors.black};
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 17rem;
+  height: 26rem;
   border-radius: 5px;
   overflow: hidden;
   @media (min-width: 767px) {
-    height: 26rem;
+    height: 25rem;
   }
 `
 
-export const MovieImg = styled.img`
-  width: 100%;
+export const MovieImg = styled(Image)`
+  min-width: 100%;
 `
 
 export const MovieTitle = styled.h4`
